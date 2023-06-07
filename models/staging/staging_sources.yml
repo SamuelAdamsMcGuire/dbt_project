@@ -1,0 +1,6 @@
+version: 2
+sources:
+  - name: staging
+    schema: public
+    tables:
+      - name: rates_raw
