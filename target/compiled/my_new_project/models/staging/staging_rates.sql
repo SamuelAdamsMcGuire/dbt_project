@@ -4,7 +4,7 @@ WITH extracted_rates AS (
            ((extracted_data -> 'rates' -> 'GBP')::VARCHAR)::FLOAT  AS gbp,
            ((extracted_data -> 'rates' -> 'KES')::VARCHAR)::FLOAT  AS kes,
            ((extracted_data -> 'rates' -> 'HRK')::VARCHAR)::FLOAT  AS hrk
-    FROM "exchange_rates"."public"."rates_raw"
+    FROM "exchange_rates"."public"."raw_rates"
 )
 SELECT *
 FROM extracted_rates

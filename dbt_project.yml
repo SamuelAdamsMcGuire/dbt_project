@@ -36,3 +36,7 @@ models:
     # Applies to all files under models/staging/
     staging:
       materialized: table
+    prep:
+      materialized: table
+    mart:
+      materialized: table
