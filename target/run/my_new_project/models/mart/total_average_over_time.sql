@@ -1,5 +1,9 @@
 
-  create view "exchange_rates"."public"."total_average_over_time__dbt_tmp" as (
+  
+    
+
+  create  table "exchange_rates"."public"."total_average_over_time__dbt_tmp"
+  as (
     WITH daily_rates AS (
 
     SELECT *
@@ -15,3 +19,4 @@ total_avg AS (
 SELECT *
 FROM total_avg
   );
+  
