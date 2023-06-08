@@ -12456,3 +12456,26 @@ drop table if exists "exchange_rates"."public"."weekday_avg_temp__dbt_backup" ca
 2023-06-08 14:55:09.140858 (Thread-962): handling status request
 2023-06-08 14:55:09.141364 (Thread-962): 14:55:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '23e5f6a3-8c0a-4a22-a900-65f52e79f889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06fd918a00>]}
 2023-06-08 14:55:09.141946 (Thread-962): sending response (<Response 4008 bytes [200 OK]>) to 10.0.132.84
+2023-06-08 14:55:32.264720 (Thread-963): handling reload request
+2023-06-08 14:55:32.265206 (Thread-963): 14:55:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '23e5f6a3-8c0a-4a22-a900-65f52e79f889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06fd918d00>]}
+2023-06-08 14:55:32.265694 (Thread-963): sending response (<Response 61 bytes [200 OK]>) to 10.0.132.84
+2023-06-08 14:55:32.302409 (Thread-964): 14:55:32  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-06-08 14:55:32.312419 (Thread-964): 14:55:32  Unable to do partial parsing because config vars, config profile, or config target have changed
+2023-06-08 14:55:32.312794 (Thread-964): 14:55:32  previous checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, current checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886
+2023-06-08 14:55:32.313063 (Thread-964): 14:55:32  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '23e5f6a3-8c0a-4a22-a900-65f52e79f889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06fc06f100>]}
+2023-06-08 14:55:32.608266 (Thread-965): handling status request
+2023-06-08 14:55:32.629204 (Thread-965): 14:55:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '23e5f6a3-8c0a-4a22-a900-65f52e79f889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06fc04b190>]}
+2023-06-08 14:55:32.634851 (Thread-965): sending response (<Response 163 bytes [200 OK]>) to 10.0.132.84
+2023-06-08 14:55:32.930625 (Thread-964): 14:55:32  1699: static parser successfully parsed mart/weekday_avg_temp.sql
+2023-06-08 14:55:32.934071 (Thread-964): 14:55:32  1699: static parser successfully parsed mart/total_average_over_time.sql
+2023-06-08 14:55:32.937253 (Thread-964): 14:55:32  1699: static parser successfully parsed staging/staging_temp.sql
+2023-06-08 14:55:32.940358 (Thread-964): 14:55:32  1699: static parser successfully parsed staging/staging_rates.sql
+2023-06-08 14:55:32.943412 (Thread-964): 14:55:32  1699: static parser successfully parsed prep/prep_temp.sql
+2023-06-08 14:55:32.946442 (Thread-964): 14:55:32  1699: static parser successfully parsed prep/prep_rates.sql
+2023-06-08 14:55:33.069833 (Thread-964): 14:55:33  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '23e5f6a3-8c0a-4a22-a900-65f52e79f889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06df7a7a30>]}
+2023-06-08 14:55:34.149702 (Thread-966): handling status request
+2023-06-08 14:55:34.150245 (Thread-966): 14:55:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '23e5f6a3-8c0a-4a22-a900-65f52e79f889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06df7ba5e0>]}
+2023-06-08 14:55:34.150845 (Thread-966): sending response (<Response 4008 bytes [200 OK]>) to 10.0.132.84
+2023-06-08 15:05:37.064678 (Thread-967): handling status request
+2023-06-08 15:05:37.066479 (Thread-967): 15:05:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '23e5f6a3-8c0a-4a22-a900-65f52e79f889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06df7bab80>]}
+2023-06-08 15:05:37.067065 (Thread-967): sending response (<Response 4008 bytes [200 OK]>) to 10.0.132.84
